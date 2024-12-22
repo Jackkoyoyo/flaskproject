@@ -1,6 +1,7 @@
 from datetime import datetime
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
+from flask_scss import Scss
 
 
 
@@ -75,12 +76,7 @@ def update(id:int):
 
 
 
-if __name__ == "__main__":
-    
-        
-        
-        
-        
-        
-        
+if __name__ == "__main__":  
+      
     app.run(debug=True)
+
